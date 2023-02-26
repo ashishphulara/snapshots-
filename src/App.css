@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+*{
+    margin:0
+    
+}
+.container{
+    width: 100vw;
+    max-width: 1530px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container > h1{
+    width: 100vw;
+    height: 100%;
+   
+    margin-bottom: 3rem;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.mainBox{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(193, 22, 22);
+    align-items: center;
+    margin-bottom: 27%;
+    margin-top: 5%;
+    border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainBox > input{
+    width: 30rem;
+    height: 3rem;
+    border-radius: 10px;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn{
+    width: 5rem;
+    height: 2rem;
+    margin-left: 20%;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+.card{
+    width: 18rem;
+    margin-bottom: 0rem;
+   
 }
 
-.App-link {
-  color: #61dafb;
+.card:hover{
+    transform: scale(1.2);
+    transition: all ease-in;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col-lg-3 col-md-4 col-6{
+    margin-bottom: 10px;
+    display: flex;
 }
+
+.header{
+    background-color: rgb(7, 91, 108);
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#cards{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: -16rem;
+    background-color: rgb(29, 53, 97);
+}
+
+#images{
+    width: 100%;
+    height: 60vh;
+    margin-top: 20px;
+}
+
+

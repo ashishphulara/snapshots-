@@ -1,0 +1,28 @@
+.bird > h1 {
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+
+#birdcards{
+    width: 100%;
+    height: auto; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+    
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: 0rem;
+    background-color: rgb(29, 53, 97);
+}
+
+#birdimages{
+   
+        width: 100%;
+        height: auto;
+     margin-top: 20px;
+    
+}
